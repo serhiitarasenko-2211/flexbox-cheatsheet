@@ -1258,9 +1258,9 @@ body.ie .ibg img {
   flex-direction: column;
   font-size: 16px;
   color: #ffffff;
-  background-color: #5e5373;
+  background-color: #536c73;
   padding: 0px 22px;
-  border: 1px solid #ece89d;
+  border: 1px solid #f3ca6d;
   text-align: center;
   cursor: pointer;
   height: 46px;
@@ -1270,7 +1270,7 @@ body.ie .ibg img {
   display: block;
 }
 .nav-sector__item.active {
-  background-color: #ece89d;
+  background-color: #f3ca6d;
   color: #333333;
 }
 @media (max-width: 991.98px) {
@@ -1297,7 +1297,7 @@ body.ie .ibg img {
 }
 .block-item-block {
   margin: 0px 0px 15px 0px;
-  border: 3px solid #ece89d;
+  border: 3px solid #f3ca6d;
   overflow: hidden;
   background: url("../img/background/fls.png") center/300px no-repeat;
 }
@@ -1323,7 +1323,7 @@ body.ie .ibg img {
 }
 .block-list li:before {
   content: "";
-  background-color: #18b5a4;
+  background-color: #18adb5;
   width: 5px;
   height: 5px;
   position: absolute;
@@ -1361,7 +1361,7 @@ body.ie .ibg img {
 }
 .block-item__link {
   text-decoration: underline;
-  color: #18b5a4;
+  color: #18adb5;
   word-wrap: break-word;
 }
 
@@ -1500,23 +1500,23 @@ a.button_1 {
   color: #fff;
   -webkit-box-shadow: 0 5px 0px #3c354a;
   box-shadow: 0 5px 0px #3c354a;
-  background-color: #5e5373;
+  background-color: #536c73;
 }
 a.button_1:hover {
   top: 2px;
   -webkit-box-shadow: 0 3px 0px #3c354a;
   box-shadow: 0 3px 0px #3c354a;
-  background-color: #18b5a4;
+  background-color: #18adb5;
 }
 a.button_2 {
   color: #fff;
   -webkit-box-shadow: 0 5px 0px #3c354a;
   box-shadow: 0 5px 0px #3c354a;
-  background-color: #5e5373;
+  background-color: #536c73;
 }
 a.button_2:hover {
   padding: 0px 50px;
-  background-color: #18b5a4;
+  background-color: #18adb5;
 }
 @media (max-width: 767.98px) {
   a.button {
@@ -1583,17 +1583,17 @@ a.button_2:hover {
   overflow: hidden;
   font-size: 14px;
   border-collapse: collapse;
-  border: 2px solid #5e5373;
+  border: 2px solid #536c73;
 }
 .transitions-spoller-table th {
   color: #fff;
-  background-color: #5e5373;
+  background-color: #536c73;
   padding: 10px;
   text-align: left;
 }
 .transitions-spoller-table td {
-  border: 1px solid #5e5373;
-  background-color: #ece89d;
+  border: 1px solid #536c73;
+  background-color: #f3ca6d;
   padding: 10px;
 }
 
@@ -1625,7 +1625,7 @@ a.button_2:hover {
 }
 .transitions-spoller-list li:before {
   content: "";
-  background-color: #18b5a4;
+  background-color: #18adb5;
   width: 5px;
   height: 5px;
   position: absolute;
@@ -1691,19 +1691,19 @@ a.button_2:hover {
 .position-block--1 {
   height: 80px;
   line-height: 80px;
-  background-color: #ece89d;
+  background-color: #f3ca6d;
 }
 
 .position-block--2 {
   height: 80px;
   line-height: 80px;
-  background-color: #5e5373;
+  background-color: #536c73;
 }
 
 .position-block--3 {
   height: 80px;
   line-height: 80px;
-  background-color: #18b5a4;
+  background-color: #18adb5;
 }
 
 .transform {
@@ -1726,7 +1726,7 @@ a.button_2:hover {
 .transform__block {
   width: 100%;
   height: 100%;
-  background-color: #18b5a4;
+  background-color: #18adb5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1740,13 +1740,13 @@ a.button_2:hover {
 }
 
 .flexbox-block__row {
-  border: 10px solid #ece89d;
+  border: 10px solid #f3ca6d;
 }
 .flexbox-block__element {
-  border: 5px solid #5e5373;
+  border: 5px solid #536c73;
 }
 .flexbox-block__item_p {
-  background-color: #18b5a4;
+  background-color: #18adb5;
   color: #fff;
   font-size: 30px;
   font-weight: 700;
@@ -1760,7 +1760,7 @@ a.button_2:hover {
   }
 }
 .flexbox-block__item {
-  background-color: #18b5a4;
+  background-color: #18adb5;
   color: #fff;
   font-size: 30px;
   font-weight: 700;
@@ -1779,12 +1779,12 @@ a.button_2:hover {
 }
 
 .grid__item {
-  background-color: #5e5373;
+  background-color: #536c73;
   padding: 10px;
   color: #fff;
   font-size: 20px;
   font-weight: 700;
-  border: 1px dashed #ece89d;
+  border: 1px dashed #f3ca6d;
 }
 
 .css-units {
@@ -1996,13 +1996,13 @@ a.button_2:hover {
       linear,
       left top,
       right top,
-      from(#ece89d),
-      to(#ece89d)
+      from(#f3ca6d),
+      to(#f3ca6d)
     )
     0 30px/100% 8px repeat-x;
-  background: -o-linear-gradient(left, #ece89d, #ece89d) 0 30px/100% 8px
+  background: -o-linear-gradient(left, #f3ca6d, #f3ca6d) 0 30px/100% 8px
     repeat-x;
-  background: linear-gradient(90deg, #ece89d, #ece89d) 0 30px/100% 8px repeat-x;
+  background: linear-gradient(90deg, #f3ca6d, #f3ca6d) 0 30px/100% 8px repeat-x;
 }
 @media (max-width: 479.98px) {
   .title span {
@@ -2012,13 +2012,13 @@ a.button_2:hover {
         linear,
         left top,
         right top,
-        from(#ece89d),
-        to(#ece89d)
+        from(#f3ca6d),
+        to(#f3ca6d)
       )
       0 23px/100% 6px repeat-x;
-    background: -o-linear-gradient(left, #ece89d, #ece89d) 0 23px/100% 6px
+    background: -o-linear-gradient(left, #f3ca6d, #f3ca6d) 0 23px/100% 6px
       repeat-x;
-    background: linear-gradient(90deg, #ece89d, #ece89d) 0 23px/100% 6px
+    background: linear-gradient(90deg, #f3ca6d, #f3ca6d) 0 23px/100% 6px
       repeat-x;
   }
 }
@@ -2051,7 +2051,7 @@ a.button_2:hover {
   font-size: 18px;
   line-height: 21px;
   text-decoration: underline;
-  color: #18b5a4;
+  color: #18adb5;
 }
 @media (max-width: 767.98px) {
   .block-link {
@@ -2068,13 +2068,13 @@ a.button_2:hover {
       linear,
       left top,
       right top,
-      from(#ece89d),
-      to(#ece89d)
+      from(#f3ca6d),
+      to(#f3ca6d)
     )
     0 19px/100% 8px repeat-x;
-  background: -o-linear-gradient(left, #ece89d, #ece89d) 0 19px/100% 8px
+  background: -o-linear-gradient(left, #f3ca6d, #f3ca6d) 0 19px/100% 8px
     repeat-x;
-  background: linear-gradient(90deg, #ece89d, #ece89d) 0 19px/100% 8px repeat-x;
+  background: linear-gradient(90deg, #f3ca6d, #f3ca6d) 0 19px/100% 8px repeat-x;
 }
 @media (max-width: 767.98px) {
   .block-subtitle span {
@@ -2084,13 +2084,13 @@ a.button_2:hover {
         linear,
         left top,
         right top,
-        from(#ece89d),
-        to(#ece89d)
+        from(#f3ca6d),
+        to(#f3ca6d)
       )
       0 15px/100% 6px repeat-x;
-    background: -o-linear-gradient(left, #ece89d, #ece89d) 0 15px/100% 6px
+    background: -o-linear-gradient(left, #f3ca6d, #f3ca6d) 0 15px/100% 6px
       repeat-x;
-    background: linear-gradient(90deg, #ece89d, #ece89d) 0 15px/100% 6px
+    background: linear-gradient(90deg, #f3ca6d, #f3ca6d) 0 15px/100% 6px
       repeat-x;
   }
 }
@@ -2100,5 +2100,5 @@ footer {
 }
 
 .author-name {
-  color: #18b5a4;
+  color: #18adb5;
 }
